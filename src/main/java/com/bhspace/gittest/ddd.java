@@ -14,6 +14,8 @@ public class ddd implements java.io.Serializable {
 
 	private java.lang.String s3;
 
+	private java.lang.String s4;
+
 	public ddd() {
 	}
 
@@ -41,10 +43,20 @@ public class ddd implements java.io.Serializable {
 		this.s3 = s3;
 	}
 
-	public ddd(java.lang.String s1, java.lang.String s2, java.lang.String s3) {
+	public java.lang.String getS4() {
+		return this.s4;
+	}
+
+	public void setS4(java.lang.String s4) {
+		this.s4 = s4;
+	}
+
+	public ddd(java.lang.String s1, java.lang.String s2, java.lang.String s3,
+			java.lang.String s4) {
 		this.s1 = s1;
 		this.s2 = s2;
 		this.s3 = s3;
+		this.s4 = s4;
 	}
 
 }
