@@ -6,12 +6,23 @@ package com.bhspace.gittest;
 
 public class eee implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public eee() {
-    }
+	private java.lang.String ss;
 
+	public eee() {
+	}
 
+	public java.lang.String getSs() {
+		return this.ss;
+	}
 
+	public void setSs(java.lang.String ss) {
+		this.ss = ss;
+	}
+
+	public eee(java.lang.String ss) {
+		this.ss = ss;
+	}
 
 }
