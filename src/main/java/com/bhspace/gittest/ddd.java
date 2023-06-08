@@ -6,12 +6,23 @@ package com.bhspace.gittest;
 
 public class ddd implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public ddd() {
-    }
+	private java.lang.String s1;
 
+	public ddd() {
+	}
 
+	public java.lang.String getS1() {
+		return this.s1;
+	}
 
+	public void setS1(java.lang.String s1) {
+		this.s1 = s1;
+	}
+
+	public ddd(java.lang.String s1) {
+		this.s1 = s1;
+	}
 
 }
