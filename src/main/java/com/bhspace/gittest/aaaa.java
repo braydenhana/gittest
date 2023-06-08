@@ -6,12 +6,23 @@ package com.bhspace.gittest;
 
 public class aaaa implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public aaaa() {
-    }
+	private java.lang.String a;
 
+	public aaaa() {
+	}
 
+	public java.lang.String getA() {
+		return this.a;
+	}
 
+	public void setA(java.lang.String a) {
+		this.a = a;
+	}
+
+	public aaaa(java.lang.String a) {
+		this.a = a;
+	}
 
 }
