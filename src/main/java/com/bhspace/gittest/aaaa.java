@@ -10,6 +10,8 @@ public class aaaa implements java.io.Serializable {
 
 	private java.lang.String a;
 
+	private java.lang.String aaaa;
+
 	public aaaa() {
 	}
 
@@ -21,8 +23,17 @@ public class aaaa implements java.io.Serializable {
 		this.a = a;
 	}
 
-	public aaaa(java.lang.String a) {
+	public java.lang.String getAaaa() {
+		return this.aaaa;
+	}
+
+	public void setAaaa(java.lang.String aaaa) {
+		this.aaaa = aaaa;
+	}
+
+	public aaaa(java.lang.String a, java.lang.String aaaa) {
 		this.a = a;
+		this.aaaa = aaaa;
 	}
 
 }
